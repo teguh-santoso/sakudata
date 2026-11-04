@@ -1,0 +1,22 @@
+[Unit]
+Description=SakuData (multi-database SQLite backend)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=sakudata
+Group=sakudata
+WorkingDirectory=/opt/sakudata
+ExecStart=/opt/sakudata/sakudata -addr 127.0.0.1:8090 -data /var/lib/sakudata
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/sakudata
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

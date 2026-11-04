@@ -1,0 +1,11 @@
+# Replace app.example.com with your real domain.
+app.example.com {
+	encode zstd gzip
+	reverse_proxy 127.0.0.1:8090 {
+		# Required for Server-Sent Events (realtime).
+		flush_interval -1
+	}
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+	}
+}
