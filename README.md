@@ -13,6 +13,12 @@
   <a href="docs/API.md">API reference</a> ·
   <a href="docs/API.id.md">Referensi API (ID)</a>
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Go-1.27+-00ADD8?logo=go&logoColor=white" alt="Go 1.27+" />
+  <img src="https://img.shields.io/badge/SQLite-pure%20Go-003B57?logo=sqlite&logoColor=white" alt="pure-Go SQLite" />
+  <img src="https://img.shields.io/badge/License-MIT-3da9fc" alt="License: MIT" />
+</p>
+
 
 ---
 
@@ -105,7 +111,7 @@ Go net/http server ── middleware (security headers, CORS, rate limit, logs)
 
 ## Requirements
 
-- Go **1.26+** (standard library HTTP, pure-Go SQLite via `modernc.org/sqlite`).
+- Go **1.27+** (standard library HTTP, pure-Go SQLite via `modernc.org/sqlite`).
 - No CGO, Node.js or external database required.
 - Optional: an S3-compatible bucket (AWS S3, MinIO, R2, Backblaze B2, …).
 
