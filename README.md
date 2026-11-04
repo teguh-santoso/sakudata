@@ -21,8 +21,18 @@ database has its own collections, records, auth users, API rules, files and
 scheduled snapshots. The admin UI is a small vanilla-JS SPA embedded in the
 binary; there is no Node build step.
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshot/sakudata-light.png" alt="SakuData admin UI — light theme" width="49%">
+  <img src="docs/screenshot/sakudata-dark.png" alt="SakuData admin UI — dark theme" width="49%">
+</p>
+
+<p align="center"><em>Admin UI in light and dark themes.</em></p>
+
 ## Table of contents
 
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Requirements](#requirements)

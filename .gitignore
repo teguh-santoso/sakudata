@@ -1,7 +1,7 @@
 # private / local-only files
 .credentials
 .commandcode/
-screenshot/
+/screenshot/
 .env
 .env.*
 *.pem
@@ -17,7 +17,7 @@ data/
 # build output
 /dist/
 /sakudata
-sakudata-*
+/sakudata-*
 
 # editor / OS
 .DS_Store

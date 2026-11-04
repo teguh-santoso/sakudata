@@ -21,8 +21,18 @@ independen. Setiap database punya collection, record, user auth, API rules,
 file, dan snapshot terjadwal sendiri. Admin UI berupa SPA vanilla JS yang
 di-embed ke binary (tanpa build step Node).
 
+## Tangkapan layar
+
+<p align="center">
+  <img src="docs/screenshot/sakudata-light.png" alt="UI admin SakuData — tema terang" width="49%">
+  <img src="docs/screenshot/sakudata-dark.png" alt="UI admin SakuData — tema gelap" width="49%">
+</p>
+
+<p align="center"><em>UI admin dalam tema terang dan gelap.</em></p>
+
 ## Daftar isi
 
+- [Tangkapan layar](#tangkapan-layar)
 - [Fitur](#fitur)
 - [Arsitektur](#arsitektur)
 - [Kebutuhan](#kebutuhan)
