@@ -4,7 +4,7 @@ go 1.27
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.48.0
-	github.com/aws/aws-sdk-go-v2/credentials v1.21.0
+	github.com/aws/aws-sdk-go-v2/credentials v1.21.3
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.114.9
 	golang.org/x/crypto v0.58.0
 	modernc.org/sqlite v1.62.0
